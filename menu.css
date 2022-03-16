@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+  }
+  
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #03032b;
+    font-family: sans-serif;
+  }
+  
+  
+  section {
+    padding: 2rem 9%;
+    flex-direction: column;
+  }
+   
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 00;
+    z-index: 1000;
+    display: flex;
+    background: #f5bc00;
+    padding: 2rem 9%;
+    box-shadow: 0 .5rem 1rem #0000001a;
+  }
+  
+  header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #03032b;
+  }
+  
+  header .logo i {
+    padding-right: .5rem;
+    color: #03032b;
+  }
+  
+  header .navbar a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #03032b;
+  }
+  
+  header .navbar a:hover {
+    color: #ffffff;
+  }
+  .cardCont {
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .Card {
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(238, 255, 0);
+    transition: all .4s;
+    background-color: #ffffff;
+   
+  }
+  
+  .cardCont:hover .Card {
+    transform: rotateY(-180deg);
+    cursor: pointer;
+  }
+  
+  .Card .front,
+  .Card .back {
+    transition: all .1s;
+    transition-delay: .2s;
+  }
+  
+  .Card .back {
+    transform: rotateY(180deg);
+    display: none;
+    width: 100%;
+  }
+  
+  .cardCont:hover .Card .front {
+    display: none;
+  }
+  .cardCont:hover .Card .back {
+    display: inline-block;
+    cursor: pointer;
+  }.cardCont {
+    display: inline-block;
+    padding: 100px;
+    text-align: center;
+    margin: 70px;
+    
+
+  }
+
+  
+  .Card {
+    height: 1px;
+    width: 150px;
+    border: 3px solid #f5bc00;
+    transition: all 1s;
+  }
+  
+  .cardCont:hover .Card {
+    transform: rotateY(-180deg);
+  }
+  
+  .Card .front,
+  .Card .back {
+    transition: all .1s;
+    transition-delay: .2s;
+  }
+  
+  .Card .back {
+    transform: rotateY(180deg);
+    display: none;
+    width: 100%;
+  }
+  
+  .cardCont:hover .Card .front {
+    display: none;
+  }
+  .cardCont:hover .Card .back {
+    display: inline-block;
+  }
+  .div .front{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+  }
+  
+  
